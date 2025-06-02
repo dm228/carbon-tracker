@@ -58,8 +58,8 @@ const handleKeyDown = (e) => {
   return (
     <Layout>
       
-
-      <h1 className="font-bubbles text-4xl text-green-700 mb-6">Welcome back!</h1>
+ <div className="p-6 max-w-md mx-auto"> 
+      <h1 className="font-bubbles text-4xl text-green-700 mb-6">Carbon Tracker</h1>
 
       <div className="h-[25vh]" />
       <div className="max-w-md mx-auto  p-6 rounded-xl ">
@@ -115,6 +115,7 @@ const handleKeyDown = (e) => {
         />
         </div>
       )}
+      </div>
     </Layout>
   );
 }

@@ -33,7 +33,7 @@ function StatsPage() {
   return (
 
     <Layout>
-    <div className="">
+    <div className="p-6 max-w-md mx-auto">
       <h2 className="font-bubbles text-4xl text-green-700 mb-6">Your Usage Stats</h2>
       <div className="h-[25vh]" />
       <p className="text-sm mb-2 text-green-100">View your carbon footprint over time.</p>

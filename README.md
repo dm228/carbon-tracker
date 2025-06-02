@@ -55,9 +55,9 @@ This project demonstrates:
 
 ## 📸 Screenshots
 
-| Home Page | Activity Card | Badges |
-|-----------|----------------|--------|
-| ![home](public/screenshots/home.png) | ![card](public/screenshots/card.png) | ![badges](public/screenshots/badges.png) |
+| Home Page | Activity Card | Badges | Stats |
+|-----------|----------------|--------|--------|
+| ![home](public/screenshots/home.png) | ![card](public/screenshots/card.png) | ![badges](public/screenshots/badges.png) | ![stats](public/screenshots/stats.png) |
 
 ---
 

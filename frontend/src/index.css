@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  
+    --color-primary: #4CAF50;
+    --color-secondary: #81C784;
+    --color-background: #F5F5F5;
+    --color-card: #ffffff;
+    --color-text: #333333;
+
+    --font-sans: "Helvetica Neue", Arial, sans-serif;
+    --font-bubbles: 'Rubik Bubbles', system-ui;
+  
+}
+
+@layer theme, base, components, utilities;
+/* Your custom utilities below */
+@layer utilities {
+  .animate-gradient {
+    background-size: 200% 200%;
+    animation: gradientShift 6s ease infinite;
+  }
+
+  @keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  @keyframes fade-in-slide-up {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in-slide-up {
+    animation: fade-in-slide-up 0.5s ease-out forwards;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-[--color-primary] text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-[--color-secondary] transition;
+  }
+
+  .btn-secondary {
+    @apply bg-white text-[--color-primary] font-semibold py-2 px-4 rounded-lg border border-[--color-primary] hover:bg-[--color-primary] hover:text-white transition;
+  }
+
+  .card {
+    @apply bg-[--color-card] text-[--color-text] p-6 rounded-xl shadow-lg;
+  }
+}

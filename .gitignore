@@ -1,0 +1,19 @@
+# Node dependencies
+**/node_modules/
+**/dist/
+
+# Build artifacts
+*.log
+*.lock
+*.DS_Store
+
+# Environment files
+**/.env
+
+# IDE settings
+.vscode/
+.idea/
+
+# Vector or database data
+**/carbon-log.json
+**/index/

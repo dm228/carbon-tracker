@@ -1,0 +1,17 @@
+Activity,Category,CO2e_kg,Source
+Drive 10 miles (gasoline car),Transport,4.1,EPA
+Drive 10 miles (electric car),Transport,1.5,CarbonBrief
+"Flight - short haul (per passenger, 1 hour)",Transport,90.0,ICAO
+Eat 100g beef,Food,5.5,BBC Climate Food Calculator
+Eat 100g chicken,Food,1.5,BBC Climate Food Calculator
+Eat 100g lentils,Food,0.9,BBC Climate Food Calculator
+1 load of laundry (cold wash),Home,0.6,Carbon Trust
+1 load of laundry (hot wash),Home,2.1,Carbon Trust
+Boil 1 liter of water (electric kettle),Home,0.06,UK Gov
+Streaming 1 hour of video,Digital,0.36,IEA
+Buy a cotton T-shirt,Shopping,6.0,Carbon Trust
+Buy a pair of jeans,Shopping,33.4,Levi's
+Take a 10-minute shower (standard showerhead),Home,1.0,US DOE
+Use a dishwasher (1 cycle),Home,1.5,Carbon Trust
+Eat 1 banana,Food,0.1,BBC Climate Food Calculator
+Buy a new smartphone,Shopping,70.0,Apple Environmental Report

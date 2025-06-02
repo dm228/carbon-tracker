@@ -13,7 +13,7 @@ export default function BadgeGrid({ earned = [] }) {
   ];
 
   return (
-    <div className="grid grid-cols-3 gap-4 mt-4">
+    <div className="grid grid-cols-3 gap-4 mt-4 w-full">
       {allBadges.map((badge) => {
         const earnedBadge = earned.includes("Level " + badge.id);
         return (

@@ -24,6 +24,6 @@ export default async function getEmbedding(text) {
   });
 
   const data = await response.json();
-  //console.log(data);
+  console.log("embedding: ",  data?.results?.[0]?.embedding);
   return data?.results?.[0]?.embedding;
 }

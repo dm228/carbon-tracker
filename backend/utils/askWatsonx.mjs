@@ -28,7 +28,7 @@ Rules:
 {
   "co2e_kg": number,
   "impact": "green" | "amber" | "red",
-  "category": "such as home,trasportation, food, entertainment,etc"
+  "category": "such as home, trasportation, food, entertainment,etc based on the activity"
   "source": "short citation or URL"
 }
 `;

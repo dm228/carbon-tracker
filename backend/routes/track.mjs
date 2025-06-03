@@ -23,7 +23,7 @@ router.post('/askwatson', async (req, res) => {
     return res.status(400).json({ error: 'Missing activity input' });
   }
 
-  const embedding = await getEmbedding(activity);
+  //const embedding = await getEmbedding(activity);
 
   // 🧠 Check VectorDB first
   let estimation;

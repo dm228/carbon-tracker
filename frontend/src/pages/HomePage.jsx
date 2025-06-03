@@ -24,7 +24,16 @@ export default function HomePage() {
     setEstimation(data);
     setError('');
   } catch (err) {
+    /*setEstimation({message: 'Estimated via Watsonx',
+    activity: activity,
+    category: "entertainment",
+    co2e_kg: 0.7,
+    impact: "amber",
+    source: "EPA 2021 Transport Report",
+    xpGained:2, quantity:1});
+    setError('');*/
     setError('Could not track activity.');
+
   }
 };
 

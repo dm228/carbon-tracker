@@ -36,15 +36,15 @@ export const findSimilarActivity = async (activity, threshold = 0.95) => {
 }
   const embedding = await getEmbedding(activity);
 //console.log('Loaded embedding:', embedding);
-  const results = await index.queryItems({
-    vector: embedding,
-    topK: 3
-  });
+  const results = await index.queryItems(
+    embedding,
+    3
+  );
 
   if (results.length > 0) {
     const match = results[0];
-    console.log("found match", results);
-    if(isNaN(match.item.norm) || match.item.norm < threshold )
+  //  console.log("found match", results);
+    if(isNaN(match.score) || match.score < threshold )
         return null;
     return {
       similarity: match.score,
